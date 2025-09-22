@@ -17,14 +17,7 @@ public class PatientAppApplication {
 	}
 	public CommandLineRunner start(PatientReporistory patientReporistory){
 		return args -> {
-			Patient p1=new Patient(null,"zakariae","el haddouchi",100,false);
-			Patient p2=new Patient(null,"zakariae","el haddouchi",100,false);
-			Patient p3=new Patient(null,"zakariae","el haddouchi",100,false);
-			patientReporistory.save(p1);
-			patientReporistory.save(p2);
-			patientReporistory.save(p3);
-			System.out.println("Done");
-
+			
 		};
 	}
 
